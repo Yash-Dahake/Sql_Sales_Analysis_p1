@@ -1,114 +1,100 @@
-Retail Sales Data Analysis Using SQL
-Project Overview
+# Retail Sales Data Analysis Using SQL
 
-Project Title: Retail Sales Data Analysis
-Database: PostgreSQL
-Table: retail_sales
+## Project Overview
+*   Project Title: Retail Sales Data Analysis
+*   Database: PostgreSQL
+*   Table: retail\_sales
+*   Objectives
+    *   Create a retail sales database and table.
+    *   Check and clean the sales data.
+    *   Explore customers, categories, and transactions.
+    *   Analyze sales and customer behavior.
+    *   Identify useful business insights from the data.
 
-This project focuses on analyzing retail sales data using SQL. I used PostgreSQL to clean the data, explore sales information, and answer different business questions.
+## Database and Data Cleaning
+*   PostgreSQL Database Setup
+*   `retail_sales` Table Details
+    *   Transaction ID
+    *   Sale Date
+    *   Sale Time
+    *   Customer ID
+    *   Gender
+    *   Age
+    *   Product Category
+    *   Quantity
+    *   Price per Unit
+    *   COGS
+    *   Total Sale
+*   Data Cleaning Process
+    *   Checking for Missing or Null Values
+    *   Removing Incomplete Records
 
-The project helped me practice SQL concepts such as filtering, grouping, aggregate functions, sorting, CASE WHEN, CTEs, and window functions.
+## Sales Analysis
+### 1. Sales on a Specific Date
+*   Retrieving all transactions made on 5 November 2022.
 
-Objectives
-Create a retail sales database and table.
-Check and clean the sales data.
-Explore customers, categories, and transactions.
-Analyze sales and customer behavior.
-Identify useful business insights from the data.
-Database and Data Cleaning
+### 2. Clothing Sales Analysis
+*   Identifying clothing transactions where quantity sold was greater than 4 during November 2022.
 
-I created a PostgreSQL database and a retail_sales table containing transaction details such as:
+### 3. Sales by Category
+*   Calculating total sales and number of orders for each product category.
 
-Transaction ID
-Sale Date
-Sale Time
-Customer ID
-Gender
-Age
-Product Category
-Quantity
-Price per Unit
-COGS
-Total Sale
+### 4. Customer Age Analysis
+*   Calculating the average age of customers who purchased products from the Beauty category.
 
-I checked the dataset for missing or null values and removed incomplete records before performing the analysis.
+### 5. High-Value Transactions
+*   Identifying transactions where the total sale amount was greater than 1000.
 
-Sales Analysis
-1. Sales on a Specific Date
+### 6. Transactions by Gender and Category
+*   Analyzing the number of transactions for each gender across different product categories.
 
-Retrieved all transactions made on 5 November 2022.
+### 7. Monthly Sales Analysis
+*   Analyzing average sales by month.
+*   Identifying the best-selling month for each year.
 
-2. Clothing Sales Analysis
+### 8. Top 5 Customers
+*   Identifying the top 5 customers based on their total sales amount.
 
-Identified clothing transactions where the quantity sold was greater than 4 during November 2022.
+### 9. Unique Customers by Category
+*   Calculating the number of unique customers who purchased products from each category.
 
-3. Sales by Category
+### 10. Sales by Time Shift
+*   Dividing transactions into three shifts:
+    *   Morning: Before 12 PM
+    *   Afternoon: 12 PM to 5 PM
+    *   Evening: After 5 PM
+*   Analyzing the number of orders in each shift.
 
-Calculated total sales and the number of orders for each product category.
+## Key Findings
+*   Total number of retail transactions.
+*   Number of unique customers.
+*   Sales performance by product category.
+*   Average customer age by category.
+*   High-value transactions.
+*   Transaction distribution by gender.
+*   Best-performing months.
+*   Top customers based on total sales.
+*   Unique customers for each category.
+*   Order patterns across different time shifts.
 
-4. Customer Age Analysis
+## Skills Used
+*   PostgreSQL
+*   SQL
+*   Data Cleaning
+*   Exploratory Data Analysis
+*   Aggregate Functions
+*   Filtering and Sorting
+*   GROUP BY
+*   CASE WHEN
+*   CTEs
+*   Window Functions
+*   Customer Analysis
+*   Sales Analysis
 
-Calculated the average age of customers who purchased products from the Beauty category.
-
-5. High-Value Transactions
-
-Identified transactions where the total sale amount was greater than 1000.
-
-6. Transactions by Gender and Category
-
-Analyzed the number of transactions for each gender across different product categories.
-
-7. Monthly Sales Analysis
-
-Analyzed average sales by month and identified the best-selling month for each year.
-
-8. Top 5 Customers
-
-Identified the top 5 customers based on their total sales amount.
-
-9. Unique Customers by Category
-
-Calculated the number of unique customers who purchased products from each category.
-
-10. Sales by Time Shift
-
-Divided transactions into three shifts:
-
-Morning: Before 12 PM
-Afternoon: 12 PM to 5 PM
-Evening: After 5 PM
-
-Then analyzed the number of orders in each shift.
-
-Key Findings
-
-Through this analysis, I was able to identify:
-
-Total number of retail transactions.
-Number of unique customers.
-Sales performance by product category.
-Average customer age by category.
-High-value transactions.
-Transaction distribution by gender.
-Best-performing months.
-Top customers based on total sales.
-Unique customers for each category.
-Order patterns across different time shifts.
-Skills Used
-PostgreSQL
-SQL
-Data Cleaning
-Exploratory Data Analysis
-Aggregate Functions
-Filtering and Sorting
-GROUP BY
-CASE WHEN
-CTEs
-Window Functions
-Customer Analysis
-Sales Analysis
-Conclusion
-
-This project helped me understand how SQL can be used to analyze retail sales data and answer business-related questions.
-
-Through this project, I gained practical experience in data cleaning, sales analysis, customer analysis, and writing SQL queries to extract meaningful insights from data.
+## Conclusion
+*   Understanding SQL for Retail Sales Data Analysis
+*   Practical Experience Gained:
+    *   Data Cleaning
+    *   Sales Analysis
+    *   Customer Analysis
+    *   Writing SQL Queries for Insights
